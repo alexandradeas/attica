@@ -40,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:6747ea5e3d3c90246c601a864c71382c3f4574a2d43d06195eaa223a45f36b907a84c89394019c26668c8a8cdf83978c519f511aa68c7a2a7b749a2073ea8c5e#npm:5.8.0"],
             ["eslint", "npm:8.5.0"],
             ["eslint-import-resolver-typescript", "virtual:6747ea5e3d3c90246c601a864c71382c3f4574a2d43d06195eaa223a45f36b907a84c89394019c26668c8a8cdf83978c519f511aa68c7a2a7b749a2073ea8c5e#npm:2.5.0"],
+            ["eslint-plugin-eslint-comments", "virtual:6747ea5e3d3c90246c601a864c71382c3f4574a2d43d06195eaa223a45f36b907a84c89394019c26668c8a8cdf83978c519f511aa68c7a2a7b749a2073ea8c5e#npm:3.2.0"],
             ["eslint-plugin-import", "virtual:6747ea5e3d3c90246c601a864c71382c3f4574a2d43d06195eaa223a45f36b907a84c89394019c26668c8a8cdf83978c519f511aa68c7a2a7b749a2073ea8c5e#npm:2.25.3"],
             ["eslint-plugin-node", "virtual:6747ea5e3d3c90246c601a864c71382c3f4574a2d43d06195eaa223a45f36b907a84c89394019c26668c8a8cdf83978c519f511aa68c7a2a7b749a2073ea8c5e#npm:11.1.0"],
             ["ts-node", "virtual:6747ea5e3d3c90246c601a864c71382c3f4574a2d43d06195eaa223a45f36b907a84c89394019c26668c8a8cdf83978c519f511aa68c7a2a7b749a2073ea8c5e#npm:10.4.0"],
@@ -520,6 +521,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:6747ea5e3d3c90246c601a864c71382c3f4574a2d43d06195eaa223a45f36b907a84c89394019c26668c8a8cdf83978c519f511aa68c7a2a7b749a2073ea8c5e#npm:5.8.0"],
             ["eslint", "npm:8.5.0"],
             ["eslint-import-resolver-typescript", "virtual:6747ea5e3d3c90246c601a864c71382c3f4574a2d43d06195eaa223a45f36b907a84c89394019c26668c8a8cdf83978c519f511aa68c7a2a7b749a2073ea8c5e#npm:2.5.0"],
+            ["eslint-plugin-eslint-comments", "virtual:6747ea5e3d3c90246c601a864c71382c3f4574a2d43d06195eaa223a45f36b907a84c89394019c26668c8a8cdf83978c519f511aa68c7a2a7b749a2073ea8c5e#npm:3.2.0"],
             ["eslint-plugin-import", "virtual:6747ea5e3d3c90246c601a864c71382c3f4574a2d43d06195eaa223a45f36b907a84c89394019c26668c8a8cdf83978c519f511aa68c7a2a7b749a2073ea8c5e#npm:2.25.3"],
             ["eslint-plugin-node", "virtual:6747ea5e3d3c90246c601a864c71382c3f4574a2d43d06195eaa223a45f36b907a84c89394019c26668c8a8cdf83978c519f511aa68c7a2a7b749a2073ea8c5e#npm:11.1.0"],
             ["ts-node", "virtual:6747ea5e3d3c90246c601a864c71382c3f4574a2d43d06195eaa223a45f36b907a84c89394019c26668c8a8cdf83978c519f511aa68c7a2a7b749a2073ea8c5e#npm:10.4.0"],
@@ -811,6 +813,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["escape-string-regexp", [
+        ["npm:1.0.5", {
+          "packageLocation": "./.yarn/cache/escape-string-regexp-npm-1.0.5-3284de402f-6092fda75c.zip/node_modules/escape-string-regexp/",
+          "packageDependencies": [
+            ["escape-string-regexp", "npm:1.0.5"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:4.0.0", {
           "packageLocation": "./.yarn/cache/escape-string-regexp-npm-4.0.0-4b531d8d59-98b48897d9.zip/node_modules/escape-string-regexp/",
           "packageDependencies": [
@@ -936,6 +945,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.5.0"],
             ["eslint-utils", "npm:2.1.0"],
             ["regexpp", "npm:3.2.0"]
+          ],
+          "packagePeers": [
+            "@types/eslint",
+            "eslint"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["eslint-plugin-eslint-comments", [
+        ["npm:3.2.0", {
+          "packageLocation": "./.yarn/cache/eslint-plugin-eslint-comments-npm-3.2.0-b1dc85dfb2-c9fe273dd5.zip/node_modules/eslint-plugin-eslint-comments/",
+          "packageDependencies": [
+            ["eslint-plugin-eslint-comments", "npm:3.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:6747ea5e3d3c90246c601a864c71382c3f4574a2d43d06195eaa223a45f36b907a84c89394019c26668c8a8cdf83978c519f511aa68c7a2a7b749a2073ea8c5e#npm:3.2.0", {
+          "packageLocation": "./.yarn/__virtual__/eslint-plugin-eslint-comments-virtual-5909af5725/0/cache/eslint-plugin-eslint-comments-npm-3.2.0-b1dc85dfb2-c9fe273dd5.zip/node_modules/eslint-plugin-eslint-comments/",
+          "packageDependencies": [
+            ["eslint-plugin-eslint-comments", "virtual:6747ea5e3d3c90246c601a864c71382c3f4574a2d43d06195eaa223a45f36b907a84c89394019c26668c8a8cdf83978c519f511aa68c7a2a7b749a2073ea8c5e#npm:3.2.0"],
+            ["@types/eslint", null],
+            ["escape-string-regexp", "npm:1.0.5"],
+            ["eslint", "npm:8.5.0"],
+            ["ignore", "npm:5.2.0"]
           ],
           "packagePeers": [
             "@types/eslint",
