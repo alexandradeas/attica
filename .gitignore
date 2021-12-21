@@ -9,6 +9,10 @@
 !/.yarn/cache
 #/.pnp.*
 
+
+# Cache files
+.eslintcache
+
 # Editor files
 Session.vim
 
