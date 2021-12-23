@@ -11,8 +11,8 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLibCheck": true,
-    "composite": true
+    "skipLibCheck": true
   },
-  "include": ["src"]
+  "include": ["**/*.ts"],
+  "references": [{ "path": "../" }]
 }
